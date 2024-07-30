@@ -26,7 +26,7 @@ namespace NZWalks.API.Mappers
             };
         }
 
-        public Region MapToDomainModel(UpdateregionRequestDto updateRegionRequestDto)
+        public Region MapToDomainModel(UpdateRegionRequestDto updateRegionRequestDto)
         {
             return new Region
             {

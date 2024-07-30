@@ -7,6 +7,6 @@ namespace NZWalks.API.Mappers
     {
         RegionDto MapToDto(Region region);
         Region MapToDomainModel(AddRegionRequestDto addRegionRequestDto);
-        Region MapToDomainModel(UpdateregionRequestDto updateRegionRequestDto);
+        Region MapToDomainModel(UpdateRegionRequestDto updateRegionRequestDto);
     }
 }

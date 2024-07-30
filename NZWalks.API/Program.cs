@@ -17,6 +17,9 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("NZWalksConnectio
 builder.Services.AddScoped<IRegionRepository, SQLRegionRepository>();
 builder.Services.AddScoped<IRegionMapper, RegionMapper>();
 
+builder.Services.AddScoped<IWalkRepository, SQLWalkRepository>();
+builder.Services.AddScoped<IWalkMapper, WalkMapper>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
